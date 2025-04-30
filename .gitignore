@@ -1,0 +1,31 @@
+# Root
+node_modules/
+.vscode/
+*.log
+*.pem
+
+# Client (Next.js frontend)
+client/node_modules/
+client/.pnp
+client/.pnp.*
+client/.next/
+client/out/
+client/build/
+client/coverage/
+client/.vercel/
+client/.env*
+client/.DS_Store
+client/next-env.d.ts
+client/*.tsbuildinfo
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.pnpm-debug.log*
+
+# Server (Flask backend)
+server/__pycache__/
+server/venv/
+server/.env
+server/*.pyc
+server/.DS_Store
+
